@@ -1,0 +1,34 @@
+https://docs.aws.amazon.com/vpn/latest/s2svpn/VPNTunnels.html
+
+https://docs.aws.amazon.com/whitepapers/latest/aws-vpc-connectivity-options/aws-managed-vpn-network-to-amazon.html
+
+AWS VPN:
+https://www.youtube.com/watch?v=pf0J6oPCIbE
+VPN tunnel ranges:
+169.254.254.0/30
+169.254.255.0/30
+
+Direct connect video:
+https://www.youtube.com/watch?v=9WdCC8u5fL0
+
+https://docs.aws.amazon.com/directconnect/latest/UserGuide/Welcome.html
+
+Transit G/W:
+https://www.youtube.com/watch?v=iVkvj2D1mKA
+
+EC2 Tenan
+https://www.youtube.com/watch?v=sOsALtwltLQ
+
+
+Login names for Images:
+Amazon and Redhat is ec2-user
+Centos -centos
+ubuntu -ubuntu
+Windows - Administrator
+https://putty.org 
+
+
+
+Identity Federation:
+
+https://aws.amazon.com/blogs/security/aws-federated-authentication-with-active-directory-federation-services-ad-fs/

@@ -1,0 +1,18 @@
+
+
+https://training.play-with-docker.com/ops-stage1/
+
+First Lab:
+
+https://training.play-with-docker.com/ops-s1-hello/
+ref:https://docs.docker.com/engine/reference/commandline/exec/#examples
+https://docs.docker.com/engine/reference/run/
+
+https://training.play-with-docker.com/ops-s1-images/
+
+
+
+https://training.play-with-docker.com/beginner-linux/
+
+katacoda.com
+

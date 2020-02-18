@@ -1,0 +1,2 @@
+Sonarlint Quality tool integration with IDE eclipse
+https://www.youtube.com/watch?v=sGElVI3fJAo

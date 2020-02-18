@@ -1,0 +1,4 @@
+
+Redshift Lab :
+
+https://docs.aws.amazon.com/redshift/latest/gsg/getting-started.html

@@ -1,0 +1,68 @@
+Install Ansible on CentOS7
+
+Step 1: Disabling Firewall and SELinux on both machines:
+
+Open a terminal and run the command:
+
+yum update
+
+Disabling Firewall:
+
+yum install firewalld
+
+systemctl stop firewalld
+
+systemctl mask firewalld
+
+Disabling Selinux:
+
+vi /etc/sysconfig/selinux - disable selinux
+
+reboot
+
+sestatus
+
+
+Step 2: Install Ansible on source machine
+
+Install EPEL packages on source machine
+
+yum install ansible -y
+
+ansible --version
+
+Add the host details in Inventory:
+
+vi /etc/ansible/hosts
+Last line
+[test]
+Private ipaddress of destination host
+
+Generate SSH key on the Ansible Control Machine. In order to do that, use the command below:
+
+ssh-keygen
+cd ~/.ssh/
+Copy contents of id_rsa.pub
+
+On the destination machine:
+
+cp id_rsa.pub contents from ansible server to authorized_keys
+chmod 700 ~/.ssh
+chmod 600 ~/.ssh/authorized_keys
+
+On source machine:
+Running Adhoc command:
+
+ansible -m ping test
+Ping must be successfully
+
+Using Asnible YAML:
+
+https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html
+
+ansible test -m ping
+ansible-playbook XXX.yml
+
+
+
+

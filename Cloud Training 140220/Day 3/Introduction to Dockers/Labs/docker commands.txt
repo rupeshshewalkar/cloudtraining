@@ -1,0 +1,38 @@
+Basic Docker Commands:
+
+docker --version
+
+docker info
+
+docker-machine restart - Dockertoolbox
+
+docker pull image name
+
+docker login 
+
+docker images
+
+docker run image name
+
+docker ps -a
+
+docker ps
+
+docker run -d --name containername imagename /bin/sh
+
+docker run -it --name containername imagename /bin/sh
+
+docker inspect containername or container id
+
+docker start containername 
+
+docker stop container name
+
+docker exec -it container /bin/sh
+
+docker commit continername localimagename
+
+docker tag localimagename yourhubusername/repositoryname:latest
+
+docker push yourhubusername/repository name:latest
+

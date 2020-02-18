@@ -1,0 +1,7 @@
+https://phauer.com/2015/tutorial-continuous-delivery-with-docker-jenkins/
+
+Jenkins Pipeline Tutorial:
+
+https://www.youtube.com/watch?v=ndLbn24OwQg
+
+f0a79ac9e85843bc8ed8e726d1aa4c16

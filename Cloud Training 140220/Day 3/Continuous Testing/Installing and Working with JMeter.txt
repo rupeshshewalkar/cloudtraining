@@ -1,0 +1,34 @@
+AWS EC2
+
+Check if Java is installed
+java -version
+
+Download Apache Jmeter Software from -
+
+https://jmeter.apache.org/download_jmeter.cgi
+
+https://www-eu.apache.org/dist//jmeter/binaries/apache-jmeter-5.1.1.tgz
+
+Create a directory :
+
+mkdir jmeter 
+
+cd jmeter
+
+wget https://www-eu.apache.org/dist//jmeter/binaries/apache-jmeter-5.1.1.tgz
+
+Extract jmeter:
+
+tar -xf apache*.tgz
+
+cd apache-jmeter
+
+cd bin
+
+Running jmeter sampletest:
+./jmeter.sh -n -t examples/CSVSample.jmx
+
+
+
+
+
