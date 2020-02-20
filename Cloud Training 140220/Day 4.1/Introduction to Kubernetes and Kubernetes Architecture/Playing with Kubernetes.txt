@@ -1,0 +1,7 @@
+https://kubernetes.io/
+
+https://www.katacoda.com/courses/kubernetes
+
+
+https://www.katacoda.com/courses/kubernetes/getting-started-with-kubeadm (Kubernetes Dashboard)
+https://github.com/kubernetes/dashboard
